@@ -50,10 +50,6 @@ function renderizarProductos(lista) {
              min="1"
              max="10"
              step="1"
-             oninput="
-             if (this.value < 1) this.value = 1;
-             if (this.value > 10) this.value = 10;
-              "
              style="width: 90px;"
              >
               <button class="btn btn-dark btn-agregar-carrito"
@@ -68,6 +64,14 @@ function renderizarProductos(lista) {
         </div>
       </div>
     `;
+  });
+    contenedor.querySelectorAll(".input-cantidad").forEach(input => {
+    input.addEventListener("input", () => {
+      if (input.value === "") return;
+      let val = parseInt(input.value);
+      if (val < 1) input.value = 1;
+      if (val > 10) input.value = 10;
+    });
   });
 }
 
@@ -87,6 +91,4 @@ function actualizarTitulo(categoria) {
 
   titulo.textContent = categoria
     ? nombres[categoria] || categoria
-    : "Todas las Totes";
-}
-
+    : "Todas las Totes";}
