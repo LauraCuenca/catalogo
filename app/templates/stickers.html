@@ -1,0 +1,127 @@
+{% extends 'base.html' %}
+
+{% block title %}Stickers - {{ titulo }}{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+  <h1>Stickers {{ titulo }}</h1>
+  <div id="productos-container" class="row row-cols-1 row-cols-md-4 g-3">
+    {% for producto in productos %}
+      <div class="col mb-3">
+        <div class="card h-100" style="max-width: 280px;">
+        <img 
+          src="{{ url_for('static', filename=producto.imagen) }}" 
+          class="card-img-top" 
+          alt="{{ producto.nombre }}"
+          width="280" 
+          height="200"
+          loading="lazy"
+          style="object-fit: cover;"
+          >
+
+          <div class="card-body p-2">
+            <h5 class="card-title fs-6 mb-1">{{ producto.nombre }}</h5>
+            {% if producto.descripcion %}
+            <p class="card-text fs-7 mb-1">{{ producto.descripcion }}</p>
+            {% endif %}
+          </div>
+          <div class="card-footer d-flex justify-content-between align-items-center p-2">
+            <strong class="fs-5">${{ producto.precio }}</strong>
+            <div class="d-flex align-items-center">
+              <input 
+                type="number" 
+                class="form-control form-control-sm me-2 input-cantidad" 
+                min="1" 
+                value="1" 
+                style="width: 60px;"
+              >
+              <button 
+                class="btn btn-sm btn-agregar-carrito"
+                data-id="{{ producto.id }}"
+                data-imagen="{{ url_for('static', filename=producto.imagen) }}"
+                data-titulo="{{ producto.nombre }}"
+                data-precio="{{ producto.precio | float }}"
+                style="padding: 0.25rem 0.5rem;"
+              >
+                Agregar
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+  <!-- Modal Confirmación -->
+  <div class="modal fade" id="modalConfirmarAgregar" tabindex="-1" aria-labelledby="modalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalLabel">Confirmar</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+        </div>
+        <div class="modal-body" id="modalTextoConfirmacion">
+          ¿Querés agregar este producto al carrito?
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancelar</button>
+          <button type="button" class="btn btn-dark" id="btnConfirmarAgregar">Agregar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+{% if total_productos > 12 %}
+  <div class="d-flex justify-content-center mt-3 mb-4">
+    <button id="btnMostrarMas" class="btn mt-3" style="background-color: #8b138f; color: white;">Mostrar más</button>
+  </div>
+{% endif %}
+
+</div>
+{% endblock %}
+
+
+{% block scripts %}
+<script>
+let currentPage = 1;
+const tipo = "{{ tipo }}";
+const subcategoria = "{{ subcategoria }}";
+const btnMostrarMas = document.getElementById('btnMostrarMas');
+const contenedor = document.getElementById('productos-container');
+
+btnMostrarMas.addEventListener('click', () => {
+  currentPage++;
+  fetch(`/api/stickers/${tipo}/${subcategoria}?page=${currentPage}`)
+    .then(response => response.json())
+    .then(data => {
+      data.productos.forEach(producto => {
+        const col = document.createElement('div');
+        col.className = 'col mb-3';
+        col.innerHTML = `
+          <div class="card h-100" style="max-width: 280px;">
+            <img src="/static/${producto.imagen}" class="card-img-top" alt="${producto.nombre}" width="280" height="200" loading="lazy" style="object-fit: cover;">
+            <div class="card-body p-2">
+              <h5 class="card-title fs-6 mb-1">${producto.nombre}</h5>
+              ${producto.descripcion ? `<p class="card-text fs-7 mb-1">${producto.descripcion}</p>` : ''}
+            </div>
+            <div class="card-footer d-flex justify-content-between align-items-center p-2">
+              <strong class="fs-5">$${producto.precio}</strong>
+              <div class="d-flex align-items-center">
+                <input type="number" class="form-control form-control-sm me-2 input-cantidad" min="1" value="1" style="width: 60px;">
+                <button class="btn btn-sm btn-agregar-carrito" data-id="${producto.id}" data-imagen="/static/${producto.imagen}" data-titulo="${producto.nombre}" data-precio="${producto.precio}" style="padding: 0.25rem 0.5rem;">
+                  Agregar
+                </button>
+              </div>
+            </div>
+          </div>
+        `;
+        contenedor.appendChild(col);
+      });
+
+      if (currentPage >= data.total_pages) {
+        btnMostrarMas.style.display = 'none';
+      }
+    });
+});
+</script>
+{% endblock %}

@@ -1,0 +1,27 @@
+{% extends 'base.html' %}
+
+{% block title %}Mi carrito - Diseños Tokio{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+  <h1 class="mb-4">Carrito de Compras</h1>
+  <div id="carrito-container" class="row row-cols-1 row-cols-md-3 g-4">
+    <p id="mensaje-vacio" class="text-center fs-5" style="display:none;">
+    No hay items en tu carrito
+    </p>
+    <!-- Productos JS -->
+  </div>
+  <div class="mt-4">
+    <h4>Total: <span id="total-precio">$0</span></h4>
+  </div>
+  
+<button id="btnEnviarWhatsApp" class="btn btn-success mt-3">
+  <i class="bi bi-whatsapp me-2"></i>
+  Enviar pedido por WhatsApp
+</button>
+
+</div>
+{% endblock %}
+
+{% block scripts %}
+{% endblock %}

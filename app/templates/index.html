@@ -1,0 +1,92 @@
+{% extends 'base.html' %}
+
+{% block title %}Inicio - Diseños Tokio{% endblock %}
+
+{% block content %}
+  <div id="carouselExampleAutoplaying" class="carousel slide mt-0 mb-3" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+       <img src="../static/img_comprimidas/banner1.png" class="d-block imagen-banner" alt="Imagen 1" />
+      </div>
+      <div class="carousel-item">
+        <img src="../static/img_comprimidas/banner2.png" class="d-block w-100" alt="Imagen 2" />
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+
+<div class="container-fluid bg-light py-4">
+  <div class="container">
+    <div class="row text-center">
+
+      <div class="col-12 col-md-4 mb-4 mb-md-0">
+        <div class="mb-3">
+          <i class="bi bi-currency-dollar fs-1"></i>
+        </div>
+        <h6 class="fw-bold">Medios de pagos</h6>
+        <p class="mb-0">
+          Se puede abonar por transferencia o efectivo.
+        </p>
+      </div>
+
+      <div class="col-12 col-md-4 mb-4 mb-md-0">
+        <div class="mb-3">
+          <i class="bi bi-shield-check fs-1"></i>
+        </div>
+        <h6 class="fw-bold">Prendas en stock y a pedido :)</h6>
+        <p class="mb-0">
+          Si no está el modelo, tardamos 3 dias en hacerlo.
+        </p>
+      </div>
+
+      <div class="col-12 col-md-4">
+        <div class="mb-3">
+          <i class="bi bi-truck fs-1"></i>
+        </div>
+        <h6 class="fw-bold">Envíos</h6>
+        <p class="mb-0">
+          Hacemos puntos de encuentro. Envios con costo
+        </p>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="container mt-2 mb-5">
+  <div class="card mx-auto p-4" style="max-width: 800px;">
+    <div class="card-body text-center">
+      <h4 class="card-title mb-4">Cómo comprar?</h4>
+      <p class="card-text fs-5">
+        Realizar tu compra en <strong>Diseños Tokio</strong> es muy fácil:
+      </p>
+
+      <div class="row justify-content-center align-items-center">
+        <div class="col-md-8">
+          <ul class="fs-5 lista-compra" style="display: inline-block; text-align: left; padding-left: 20px;">
+            <li>Elegí el producto que te guste, sumalos al carrito</li>
+            <li>Envíanos la lista por <a href="https://wa.me/542213631353" target="_blank" class="whatsapp-link">WhatsApp</a></li>
+            <li>Se abona el %50 del pedido o la totalidad</li>
+            <li>Coordinamos la entrega en un punto de encuentro</li>
+            <li>Listo! Recibís tu pedido 💖</li>
+          </ul>
+        </div>
+
+        <div class="col-md-4">
+          <img src="{{ url_for('static', filename='img_comprimidas/brillo_rosa.webp') }}"
+               alt="Brillo"
+               style="width: 100px; height: 100px;" class="img-fluid">
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock %}

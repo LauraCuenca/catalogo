@@ -1,0 +1,557 @@
+[
+  {
+    "id": 1,
+    "titulo": "Tote Bag Personalizada",
+    "precio": "12000",
+    "descripcion": "Se estampa en dtf, tarda 3 dias. La estampa es tamaño a4",
+    "imagen": "img_comprimidas/totes/perso.webp",
+    "categoria": "disenio"
+  },
+  {
+    "id": 2,
+    "titulo": "Tote Bag Lisa",
+    "precio": "5000",
+    "descripcion": "Podes elegir entre color crudo(lienzo) y negro(gabardina).",
+    "imagen": "img_comprimidas/totes/dual.webp",
+    "categoria": "disenio"
+  },
+  {
+    "id": 3,
+    "titulo": "Tote Bag UNLP",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf, en stock",
+    "imagen": "img_comprimidas/totes/unlp.webp",
+    "categoria": "universitario"
+  },
+  {
+    "id": 4,
+    "titulo": "Tote Bag Femenine Rage",
+    "precio": "10000",
+    "descripcion": "Estampado en dtf, en stock",
+    "imagen": "img_comprimidas/totes/femenine.webp",
+    "categoria": "promo"
+  },
+  {
+    "id": 5,
+    "titulo": "Tote Bag Eras Tour",
+    "precio": "10000",
+    "descripcion": "Estampado en dtf, en stock",
+    "imagen": "img_comprimidas/totes/eras.webp",
+    "categoria": "promo"
+  },
+  {
+    "id": 6,
+    "titulo": "Tote Bag Taylor's Version",
+    "precio": "12000",
+    "descripcion": "Pintada a mano",
+    "imagen": "img_comprimidas/totes/taylors.webp",
+     "categoria": "taylor"
+  },
+  {
+    "id": 7,
+    "titulo": "Tote Bag Chihiro",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf, en stock",
+    "imagen": "img_comprimidas/totes/chihiro.webp",
+    "categoria": "anime"
+  },
+  {
+    "id": 8,
+    "titulo": "Tote Bag Cats",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf, en stock",
+    "imagen": "img_comprimidas/totes/cats.webp",
+    "categoria": "disenio"
+  },
+  {
+    "id": 9,
+    "titulo": "Tote Bag Scotish",
+    "precio": "7000",
+    "descripcion": "Tote bag de tela escocesa",
+    "imagen": "img_comprimidas/totes/scotish.webp",
+    "categoria": "promo"
+  },
+  {
+    "id": 10,
+    "titulo": "Tote Bag Corderoy",
+    "precio": "7000",
+    "descripcion": "Tote bag de tela de corderoy",
+    "imagen": "img_comprimidas/totes/corderoy.webp",
+    "categoria": "promo"
+  },
+  {
+    "id": 11,
+    "titulo": "Tote Bag JJK",
+    "precio": "7000",
+    "descripcion": "Estampado en dtf, en stock",
+    "imagen": "img_comprimidas/totes/jjk.webp",
+    "categoria": "promo"
+  },
+  {
+    "id": 12,
+    "titulo": "Tote Bag Los Piojos",
+    "precio": "7000",
+    "descripcion": "Estampado en dtf, en stock",
+    "imagen": "img_comprimidas/totes/lospi.webp",
+    "categoria": "promo"
+  },
+  {
+    "id": 13,
+    "titulo": "Tote Bag Los Piojos, eterno",
+    "precio": "7000",
+    "descripcion": "Estampado en dtf, en stock",
+    "imagen": "img_comprimidas/totes/eterno.webp",
+    "categoria": "promo"
+  },
+  {
+    "id": 14,
+    "titulo": "Tote Bag Los Piojos, eterno black",
+    "precio": "7000",
+    "descripcion": "Estampado en dtf, en stock",
+    "imagen": "img_comprimidas/totes/eterno_black.webp",
+    "categoria": "promo"
+  },
+  {
+    "id": 15,
+    "titulo": "Tote Daylight",
+    "precio": "12000",
+    "descripcion": "Tote bag con bolsillo estampado",
+    "imagen": "img_comprimidas/totes/daylight.webp",
+    "categoria": "taylor"
+  },
+  {
+    "id": 16,
+    "titulo": "Tote Fate",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/fate.webp",
+    "categoria": "taylor"
+  },
+  {
+    "id": 17,
+    "titulo": "Tote Showgirl Black",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf, con brillos",
+    "imagen": "img_comprimidas/totes/orange_b.webp",
+    "categoria": "taylor"
+  },
+  {
+    "id": 18,
+    "titulo": "Tote Showgirl",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf, con brillos",
+    "imagen": "img_comprimidas/totes/orange.webp",
+    "categoria": "taylor"
+  },
+  {
+    "id": 19,
+    "titulo": "Tote Showgirl yellow",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf, con brillos",
+    "imagen": "img_comprimidas/totes/yellow.webp",
+    "categoria": "taylor"
+  },
+  {
+    "id": 20,
+    "titulo": "Tote Universidad",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/uni.webp",
+    "categoria": "universitario"
+  },
+  {
+    "id": 21,
+    "titulo": "Tote UNLP black",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/u_black.webp",
+    "categoria": "universitario"
+  },
+  {
+    "id": 22,
+    "titulo": "Tote Argentina yellow",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/argy.webp",
+    "categoria": "arg"
+  },
+  {
+    "id": 23,
+    "titulo": "Tote Arg Popular",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/arg_popu.webp",
+    "categoria": "arg"
+  },
+  {
+    "id": 24,
+    "titulo": "Tote Coronados de Gloria",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/coronados.webp",
+    "categoria": "arg"
+  },
+  {
+    "id": 25,
+    "titulo": "Tote Argentina estampita",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/estampa.webp",
+    "categoria": "arg"
+  },
+  {
+    "id": 26,
+    "titulo": "Tote Moria",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/moria.webp",
+    "categoria": "arg"
+  },
+  {
+    "id": 27,
+    "titulo": "Tote Marin",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/marin.webp",
+    "categoria": "anime"
+  },
+  {
+    "id": 28,
+    "titulo": "Tote Attack on titan",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/attack.webp",
+    "categoria": "anime"
+  },
+  {
+    "id": 29,
+    "titulo": "Tote JJK",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/jjk_violet.webp",
+    "categoria": "anime"
+  },
+  {
+    "id": 30,
+    "titulo": "Tote Pokemon",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/poke.webp",
+    "categoria": "anime"
+  },
+  {
+    "id": 30,
+    "titulo": "Tote Demon Hunter",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/demon.webp",
+    "categoria": "anime"
+  },
+  {
+    "id": 31,
+    "titulo": "Tote Psyduck",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/psyduck.webp",
+    "categoria": "anime"
+  },
+  {
+    "id": 32,
+    "titulo": "Tote Cascada",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/cascada.webp",
+    "categoria": "anime"
+  },
+  {
+    "id": 32,
+    "titulo": "Tote Pupura",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/purpura.webp",
+    "categoria": "anime"
+  },
+  {
+    "id": 33,
+    "titulo": "Tote Nanami",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/nanami.webp",
+    "categoria": "anime"
+  },
+  {
+    "id": 34,
+    "titulo": "Tote Sofie",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/sofie.webp",
+    "categoria": "anime"
+  },
+  {
+    "id": 35,
+    "titulo": "Tote Chainsanw Man",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/chaisan.webp",
+    "categoria": "anime"
+  },
+  {
+    "id": 36,
+    "titulo": "Tote One Piece",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/one_piece.webp",
+    "categoria": "anime"
+  },
+  {
+    "id": 37,
+    "titulo": "Tote Tarjeta Chihiro",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/tarj_chihiro.webp",
+    "categoria": "anime"
+  },
+  {
+    "id": 38,
+    "titulo": "Tote Chihiro White",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/chihiro_white.webp",
+    "categoria": "anime"
+  },
+  {
+    "id": 38,
+    "titulo": "Tote Frieren",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/frieren.webp",
+    "categoria": "anime"
+  },
+  {
+    "id": 38,
+    "titulo": "Tote Sailor Pink",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/sailor.webp",
+    "categoria": "anime"
+  },
+  {
+    "id": 39,
+    "titulo": "Tote K4os",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/kaos.webp",
+    "categoria": "bandas"
+  },
+  {
+    "id": 40,
+    "titulo": "Tote Airbag",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/airbag.webp",
+    "categoria": "bandas"
+  },
+  {
+    "id": 41,
+    "titulo": "Tote Duki",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/duki.webp",
+    "categoria": "bandas"
+  },
+  {
+    "id": 41,
+    "titulo": "Tote BTS",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/bts.webp",
+    "categoria": "bandas"
+  },
+  {
+    "id": 41,
+    "titulo": "Tote Equipment",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/equipment.webp",
+    "categoria": "rpg"
+  },
+  {
+    "id": 42,
+    "titulo": "Tote ItaBag yellow",
+    "precio": "15000",
+    "descripcion": "Con Bolsillo de Pvc",
+    "imagen": "img_comprimidas/totes/ita_yellow.webp",
+    "categoria": "disenio"
+  },
+  {
+    "id": 43,
+    "titulo": "Tote Sandia",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/sandia.webp",
+    "categoria": "disenio"
+  },
+  {
+    "id": 44,
+    "titulo": "Tote Kois",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/kois.webp",
+    "categoria": "disenio"
+  },
+  {
+    "id": 45,
+    "titulo": "Tote Lady Cat",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/lady_cat.webp",
+    "categoria": "disenio"
+  },
+  {
+    "id": 46,
+    "titulo": "Tote Flowers",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/flowers.webp",
+    "categoria": "disenio"
+  },
+  {
+    "id": 47,
+    "titulo": "Tote Matsuri",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/matsuri.webp",
+    "categoria": "disenio"
+  },
+  {
+    "id": 48,
+    "titulo": "Tote Kois Black",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/k_black.webp",
+    "categoria": "disenio"
+  },
+  {
+    "id": 49,
+    "titulo": "Tote Spiderman",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/spiderman.webp",
+    "categoria": "disenio"
+  },
+  {
+    "id": 50,
+    "titulo": "Tote Batman",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/batman.webp",
+    "categoria": "disenio"
+  },
+  {
+    "id": 51,
+    "titulo": "Tote Kitty Halloween",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/k_hallo.webp",
+    "categoria": "disenio"
+  },
+  {
+    "id": 52,
+    "titulo": "Tote Chillin",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/chillin.webp",
+    "categoria": "disenio"
+  },
+  {
+    "id": 53,
+    "titulo": "Tote London",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/london.webp",
+    "categoria": "disenio"
+  },
+  {
+    "id": 54,
+    "titulo": "Tote What If",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/what.webp",
+    "categoria": "disenio"
+  },
+  {
+    "id": 55,
+    "titulo": "Tote Collage",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/collage.webp",
+    "categoria": "disenio"
+  },
+  {
+    "id": 56,
+    "titulo": "Tote Plantas",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/plantas.webp",
+    "categoria": "disenio"
+  },
+  {
+    "id": 57,
+    "titulo": "Tote Flores en Patron",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/f_patron.webp",
+    "categoria": "disenio"
+  },
+  {
+    "id": 58,
+    "titulo": "Tote Jesus",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/jesus.webp",
+    "categoria": "disenio"
+  },
+  {
+    "id": 59,
+    "titulo": "Tote Manos",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/manos.webp",
+    "categoria": "disenio"
+  },
+  {
+    "id": 60,
+    "titulo": "Tote Itabag Black",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/ita_b.webp",
+    "categoria": "disenio"
+  },
+  {
+    "id": 61,
+    "titulo": "Tote Tarot",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/tarot.webp",
+    "categoria": "disenio"
+  },
+  {
+    "id": 62,
+    "titulo": "Tote Hilo",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf, frase de Lali",
+    "imagen": "img_comprimidas/totes/hilo.webp",
+    "categoria": "bandas"
+  },
+  {
+    "id": 63,
+    "titulo": "Tote Vans",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/vans.webp",
+    "categoria": "disenio"
+  }
+
+
+
+]

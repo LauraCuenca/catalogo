@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block title %}Guia de Medidas - Diseños Tokio{% endblock %}
+
+{% block content %}
+<div class="d-flex justify-content-center mt-5 my-4">
+  <img src="{{ url_for('static', filename='img_comprimidas/tamaño_tote.png') }}"
+       alt="Medidas de las totes"
+       class="img-fluid"
+       style="width: 100%; max-width: 650px; padding: 10px;"
+</div>
+{% endblock %}
