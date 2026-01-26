@@ -1,5 +1,5 @@
 ¡Bienvenid@ a mi proyecto de catálogo online! 
-Este proyecto está desarrollado en **Python** y permite gestionar productos de manera local, se puede seleccionar productos y pedirlos a travez de WhatsApp.
+Este proyecto está desarrollado en **Python** y permite gestionar productos de manera local, se puede seleccionar productos y pedirlos a través de WhatsApp.
 
 ---
 
