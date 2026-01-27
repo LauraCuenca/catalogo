@@ -68,9 +68,9 @@ body {
 }
 
 .carousel-item img {
-  height: 400px;
+  height: 450px;
   width: 100%;
-  object-fit: contain;
+  object-fit: cover;
   display: block;
   margin: 0 auto;
 }
@@ -147,7 +147,7 @@ ul.lista-compra {
   }
 
   .carousel-item img {
-    height: 250px;
+    height: 280px;
   }
 
   .mi-enlace {

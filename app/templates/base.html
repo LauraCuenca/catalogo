@@ -4,7 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{% block title %}Diseños Tokio{% endblock %}</title>
-  <link rel="icon" type="image/png" href="{{ url_for('static', filename='img_comprimidas/logo.webp') }}">
+  <link rel="icon" type="image/png" href="{{ url_for('static', filename='img_comprimidas/logo.png') }}">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
@@ -23,7 +23,7 @@
   <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #4c005d;">
     <div class="container-fluid">
       <a class="navbar-brand active" href="/">
-        <img src="{{ url_for('static', filename='img_comprimidas/logo.webp') }}" alt="Logo" 
+        <img src="{{ url_for('static', filename='img_comprimidas/logo.png') }}" alt="Logo" 
         style="height: 60px; width: 60px; border-radius: 60%;" />
       </a>
       <button
@@ -90,12 +90,25 @@
 
 
 <div class="d-flex ms-auto align-items-center gap-3">
-  <a class="nav-link d-flex align-items-center gap-1" href="{{ url_for('carrito') }}">
-     <i class="bi bi-cart3 fs-2"></i>
-     <span id="cart-count" class="badge bg-danger rounded-pill">0</span>
-  </a>
-</div>
 
+  <a class="nav-link d-flex align-items-center gap-1" href="{{ url_for('carrito') }}">
+    <i class="bi bi-cart3 fs-2"></i>
+    <span id="cart-count" class="badge bg-danger rounded-pill">0</span>
+  </a>
+
+<form class="d-flex" role="search">
+  <input
+    id="inputBusqueda"
+    class="form-control me-2"
+    type="search"
+    placeholder="Buscar tote..."
+  >
+  <button id="btnBusqueda" class="btn btn-outline-light">
+    Buscar
+  </button>
+</form>
+
+</div>
 
 
 </nav>
@@ -124,6 +137,7 @@
 </script>
 <script type="module" src="{{ url_for('static', filename='js/main.js') }}"></script>
 <script type="module" src="{{ url_for('static', filename='js/carrito.js') }}"></script>
+<script type="module" src="{{ url_for('static', filename='js/totes.js') }}"></script>
 <script type="module">
   import { actualizarContador } from '/static/js/utils.js';
   document.addEventListener('DOMContentLoaded', () => {
