@@ -9,10 +9,19 @@
     <p id="mensaje-vacio" class="text-center fs-5" style="display:none;">
     No hay items en tu carrito
     </p>
-    <!-- Productos JS -->
   </div>
   <div class="mt-4">
     <h4>Total: <span id="total-precio">$0</span></h4>
+    <button 
+  id="btnVaciarCarrito"
+  class="btn btn-outline-danger"
+  data-bs-toggle="modal"
+  data-bs-target="#modalVaciarCarrito"
+>
+  <i class="bi bi-trash me-2"></i>
+  Vaciar carrito
+</button>
+
   </div>
   
 <button id="btnEnviarWhatsApp" class="btn btn-success mt-3">
@@ -20,6 +29,60 @@
   Enviar pedido por WhatsApp
 </button>
 
+</div>
+
+<div class="modal fade" id="modalEliminarProducto" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+
+      <div class="modal-header">
+        <h5 class="modal-title">Eliminar producto</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body">
+        <p id="textoEliminarProducto">
+          ¿Seguro que querés eliminar este producto del carrito?
+        </p>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          Cancelar
+        </button>
+        <button type="button" id="confirmarEliminarProducto" class="btn btn-danger">
+          Eliminar
+        </button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="modalVaciarCarrito" tabindex="-1" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      
+      <div class="modal-header">
+        <h5 class="modal-title">Vaciar carrito</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body">
+        <p>¿Seguro que querés eliminar todos los productos del carrito?</p>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+          Cancelar
+        </button>
+        <button type="button" id="confirmarVaciarCarrito" class="btn btn-danger">
+          Sí, vaciar
+        </button>
+      </div>
+
+    </div>
+  </div>
 </div>
 {% endblock %}
 
