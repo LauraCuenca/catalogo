@@ -550,8 +550,97 @@
     "descripcion": "Estampado en dtf",
     "imagen": "img_comprimidas/totes/vans.webp",
     "categoria": "disenio"
+  },
+    {
+    "id": 64,
+    "titulo": "Tote Arirang",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/arirang.webp",
+    "categoria": "bandas"
+  },
+  {
+    "id": 65,
+    "titulo": "Tote BTS Pink",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/BTsPink.webp",
+    "categoria": "bandas"
+  },
+  {
+    "id": 66,
+    "titulo": "Tote But Daddy I love him..",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/daddy.webp",
+    "categoria": "disenio"
+  },
+    {
+    "id": 67,
+    "titulo": "Tote D&D",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/Dungeons.webp",
+    "categoria": "rpg"
+  },
+  {
+    "id": 68,
+    "titulo": "Tote Elements",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/elements.webp",
+    "categoria": "rpg"
+  },
+  {
+    "id": 69,
+    "titulo": "Tote Evita",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totesevita.webp",
+    "categoria": "arg"
+  },
+    {
+    "id": 67,
+    "titulo": "Tote Ilya",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/ilyaRozan.webp",
+    "categoria": "disenio"
+  },
+  {
+    "id": 68,
+    "titulo": "Tote Quack",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/quack.webp",
+    "categoria": "disenio"
+  },
+  {
+    "id": 69,
+    "titulo": "Tote Sailor Black",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/sailorBlack.webp",
+    "categoria": "arg"
+  },
+  {
+    "id": 70,
+    "titulo": "Tote Starboy",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/totes/starboy.webp",
+    "categoria": "bandas"
+  },
+  {
+    "id": 71,
+    "titulo": "Tote Stranger Things",
+    "precio": "12000",
+    "descripcion": "Estampado en dtf",
+    "imagen": "img_comprimidas/StrangerThings.webp",
+    "categoria": "arg"
   }
-
+  
+  
 
 
 ]
