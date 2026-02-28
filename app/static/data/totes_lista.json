@@ -596,7 +596,7 @@
     "titulo": "Tote Evita",
     "precio": "12000",
     "descripcion": "Estampado en dtf",
-    "imagen": "img_comprimidas/totesevita.webp",
+    "imagen": "img_comprimidas/totes/totesevita.webp",
     "categoria": "arg"
   },
     {
@@ -620,8 +620,8 @@
     "titulo": "Tote Sailor Black",
     "precio": "12000",
     "descripcion": "Estampado en dtf",
-    "imagen": "img_comprimidas/sailorBlack.webp",
-    "categoria": "arg"
+    "imagen": "img_comprimidas/totes/sailorBlack.webp",
+    "categoria": "anime"
   },
   {
     "id": 70,
@@ -636,8 +636,8 @@
     "titulo": "Tote Stranger Things",
     "precio": "12000",
     "descripcion": "Estampado en dtf",
-    "imagen": "img_comprimidas/StrangerThings.webp",
-    "categoria": "arg"
+    "imagen": "img_comprimidas/totes/StrangerThings.webp",
+    "categoria": "disenio"
   }
   
   
