@@ -7,7 +7,6 @@ Este proyecto está desarrollado en **Python** y permite gestionar productos de 
 
 - Gestión de productos de forma local (añadir, listar, consultar).  
 - Interfaz sencilla y responsiva usando HTML y CSS.    
-- Compatible con despliegue en GitHub Pages para la parte visual.
 
 ---
 
