@@ -24,8 +24,8 @@ Este proyecto está desarrollado en **Python** y permite gestionar productos de 
 1. Clonar el repositorio:
 
 ```bash
-git clone https://github.com/tu_usuario/nombre_del_repo.git
-cd nombre_del_repo
+git clone https://github.com/LauraCuenca/catalogo
+cd catalogo
 ```
 2. Crear y activar un entorno virtual:
 ```bash
